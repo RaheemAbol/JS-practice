@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three cup shuffle</title>
+</head>
+<body>
+    
+    <h2 id="first">First cup</h3>
+        <button type ="button" onclick="document.getElementById('first').innerHTML='nope'"onmouseover>Maybe here..</button>
+    
+    <h3 id="second">Second cup</h3>
+        <button type ="button" onclick="document.getElementById('second').innerHTML='yes'"onmouseover>Could be?</button>
+    
+
+    <h3 id="third">Third cup</h3>
+        <button type ="button" onclick="document.getElementById('third').innerHTML='nope'"onmouseover>Idk..</button>
+    
+    <h3 id="fourth">fourth cup</h3>
+        <button type ="button" onclick="document.getElementById('fourth').style.display='none'"onmouseover>magic</button>
+    
+    <div class="cup">
+       
+        <button onclick="document.getElementById('cupImage').src='bluesolo.jpg'">Flip</button>
+        <img id="cupImage" src="redsolo.jpg" style="width:100px">
+        <button onclick="document.getElementById('cupImage').src='winner.jpg'">Flip</button>
+
+    </div>
+    
+        <script>
+            window.alert("Pick the right cup and win a lifetime supply of Hamburger Helper!!!");
+        </script>
+</body>
+</html>
