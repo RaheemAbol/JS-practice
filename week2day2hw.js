@@ -70,8 +70,6 @@ function multArray2(numbers) {
 console.log(multArray2([10,20,30,40]))
 
 
-console.log(multiplyArray(10,15,20,25));
-
 //number of arguments
 
 function numOfArguments(one,two,three){
